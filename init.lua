@@ -76,6 +76,9 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 10
 
 -- [[ Basic Keymaps ]]
+--
+
+vim.keymap.set('n', '<leader>x', ':BufferClose<CR>', { noremap = true, silent = true })
 --  See `:help vim.keymap.set()`
 
 -- Clear highlights on search when pressing <Esc> in normal mode
